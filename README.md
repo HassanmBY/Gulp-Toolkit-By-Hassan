@@ -1,7 +1,7 @@
 # Gulp Base
 My personnal base for gulp manager
----
 
+---
 ## Project setup
 In your terminal type:
 
@@ -27,8 +27,8 @@ gulp --tasks
 ```bash
 gulp taskName
 ```
----
 
+---
 ## Features
 
 #### SASS|SCSS
