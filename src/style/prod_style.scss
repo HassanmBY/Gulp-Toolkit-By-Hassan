@@ -1,0 +1,10 @@
+@import "partials/variables";
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    background-color: $color;
+}

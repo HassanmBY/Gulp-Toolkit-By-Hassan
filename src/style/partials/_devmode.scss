@@ -1,0 +1,12 @@
+$MODE: "dev";
+$transparency_effect: 1;
+$dev_color: purple;
+@if $MODE=="dev" {
+    $transparency_effect: 0.8;
+    @debug "MODE:" $MODE;
+}
+
+@else if $MODE=="build" {
+    $transparency_effect: 1;
+    @debug "MODE:" $MODE;
+}
