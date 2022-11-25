@@ -42,6 +42,8 @@ In the sass|scss partial named "_devmode" you can switch the value of `$MODE` (o
 
 You can change the `background-color` used for dev mode by changing the value of the variable `$dev_color` on line 3.
 
+---
+
 ### Additionnal infos
 - Any js or scss file (that is not a library or partial) should be prefixed with prod_ or else it won't be compiled/minified
 - The js and scss files prefixed with prod_ are minified and renamed to ~~prod_~~filename.min.(js|css) (/!\ Careful when linking files - This tip might save you some headaches)
