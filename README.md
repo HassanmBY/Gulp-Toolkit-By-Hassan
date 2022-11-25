@@ -28,6 +28,11 @@ gulp taskName
 ```
 
 ### Features
+
+#### SASS|SCSS
+File name: _devmode.scss
+Path: src/style/partials/_devmode.scss
+
 In the sass|scss partial named "_devmode" you can switch the value of `$MODE` (on line 1) between "dev" and "build". "Dev" mode applies a transparent color as the `background-color` of every element on the page. It can be helpful when integrating a page.
 
 You can change the `background-color` used for dev mode by changing the value of the variable `$dev_color` on line 3.
