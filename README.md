@@ -32,6 +32,8 @@ gulp taskName
 ## Features
 
 #### SASS|SCSS
+##### DEVMODE
+
 File name: _devmode.scss
 
 Path: src/style/partials/_devmode.scss
